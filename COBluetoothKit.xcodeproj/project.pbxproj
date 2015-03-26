@@ -10,6 +10,8 @@
 		6525C9821AC4CF4D00214BE1 /* COBluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6525C9811AC4CF4D00214BE1 /* COBluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6525C9881AC4CF4D00214BE1 /* COBluetoothKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6525C97C1AC4CF4D00214BE1 /* COBluetoothKit.framework */; };
 		6525C98F1AC4CF4D00214BE1 /* COBluetoothKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C98E1AC4CF4D00214BE1 /* COBluetoothKitTests.m */; };
+		6525C99A1AC4CF6D00214BE1 /* COBluetoothManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6525C9981AC4CF6D00214BE1 /* COBluetoothManager.h */; };
+		6525C99B1AC4CF6D00214BE1 /* COBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C9991AC4CF6D00214BE1 /* COBluetoothManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		6525C9871AC4CF4D00214BE1 /* COBluetoothKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COBluetoothKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6525C98D1AC4CF4D00214BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6525C98E1AC4CF4D00214BE1 /* COBluetoothKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COBluetoothKitTests.m; sourceTree = "<group>"; };
+		6525C9981AC4CF6D00214BE1 /* COBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COBluetoothManager.h; sourceTree = "<group>"; };
+		6525C9991AC4CF6D00214BE1 /* COBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COBluetoothManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				6525C9811AC4CF4D00214BE1 /* COBluetoothKit.h */,
+				6525C9981AC4CF6D00214BE1 /* COBluetoothManager.h */,
+				6525C9991AC4CF6D00214BE1 /* COBluetoothManager.m */,
 				6525C97F1AC4CF4D00214BE1 /* Supporting Files */,
 			);
 			path = COBluetoothKit;
@@ -110,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6525C9821AC4CF4D00214BE1 /* COBluetoothKit.h in Headers */,
+				6525C99A1AC4CF6D00214BE1 /* COBluetoothManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6525C99B1AC4CF6D00214BE1 /* COBluetoothManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
